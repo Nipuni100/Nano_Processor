@@ -1,0 +1,41 @@
+Used Hardware
+
+===Clock=== 
+PACKAGE_PIN W5
+
+===LEDs===
+
+From R7_out[0] to R7_out[3]=>
+PACKAGE_PIN U16
+PACKAGE_PIN E19
+PACKAGE_PIN U19
+PACKAGE_PIN V19
+
+PACKAGE_PIN P1  => Z
+PACKAGE_PIN L1 => C
+
+===7 segement Display===
+
+From S7_seg[0] to S7_seg[6]
+
+PACKAGE_PIN W7
+PACKAGE_PIN W6
+PACKAGE_PIN U8
+PACKAGE_PIN V8
+PACKAGE_PIN U5
+PACKAGE_PIN V5
+PACKAGE_PIN U7
+
+===anodes===
+
+From Anode[0] to Anode[3]
+
+PACKAGE_PIN U2
+PACKAGE_PIN U4
+PACKAGE_PIN V4
+PACKAGE_PIN W4
+
+
+===Buttons===
+
+PACKAGE_PIN U18=> Res

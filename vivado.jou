@@ -1,0 +1,29 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Sun Jun 11 16:53:22 2023
+# Process ID: 15880
+# Current directory: D:/Downloads/Lab10/project_11
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent6764 D:\Downloads\Lab10\project_11\project_11.xpr
+# Log file: D:/Downloads/Lab10/project_11/vivado.log
+# Journal file: D:/Downloads/Lab10/project_11\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Downloads/Lab10/project_11/project_11.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+open_wave_config D:/Downloads/Lab10/project_11/project_11.srcs/sim_1/imports/Lab10/TB_Nano_behav1.wcfg
+source TB_Nano.tcl
+close_sim
+launch_simulation
+open_wave_config D:/Downloads/Lab10/project_11/project_11.srcs/sim_1/imports/Lab10/TB_Nano_behav1.wcfg
+source TB_Nano.tcl
+current_wave_config {TB_Nano_behav1.wcfg*}
+add_wave {{/TB_Nano/UUT/Reg_Bank}} 
+save_wave_config {D:/Downloads/Lab10/project_11/project_11.srcs/sim_1/imports/Lab10/TB_Nano_behav1.wcfg}
+close_sim
+launch_simulation
+open_wave_config D:/Downloads/Lab10/project_11/project_11.srcs/sim_1/imports/Lab10/TB_Nano_behav1.wcfg
+source TB_Nano.tcl
+close_sim
